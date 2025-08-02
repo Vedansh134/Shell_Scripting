@@ -7,7 +7,7 @@ echo "function in shell scripting"
 echo "---------------------------"
 
 #define function
-function greetfunc{
+function greetfunc(){
 	echo "hello world in shell scripting"
 }
 
