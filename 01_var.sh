@@ -3,7 +3,7 @@
 # Variable in shell scripting
 
 # =====================================
-# Define variables    
+# Define variables
 
 current_date=$(date)
 hostname=$(hostname)
