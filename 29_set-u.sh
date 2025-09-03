@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# ========================== use cases of set -x ===========================
+# ========================== use cases of set -u ===========================
 
 # set -u (or set -o nounset)
 # What it does: Treats unset variables as an error and exits.

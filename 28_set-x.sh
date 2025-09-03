@@ -13,13 +13,11 @@
 # set -o pipefail    : catch errors in pipelines
 
 
-# for enable - and for disable set +x/+e/+o/+u
+# for enable set -x and for disable set +x/+e/+o/+u
 set -x
 
 # define variables
 hostname=$(hostname)
-
-echo "We practice set -x/e/u/o"
 
 echo "Hello, We use set -e check every cmd"
 echo "Hostname : ${hostname}"
